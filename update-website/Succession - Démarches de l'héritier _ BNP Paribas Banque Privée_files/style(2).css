@@ -1,0 +1,312 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #nextoutils_new-faq_mbbpf-popin{
+    margin: 169px auto 0;
+  }
+}
+#nextoutils_new-faq_mbbpf-popin .faq__search-engine__popin {
+  position: fixed;
+  width: 100%;
+  max-height: calc(100vh - 200px);
+  overflow-y: scroll;
+  z-index: 298;
+  top: 165px
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container {
+  background-color: #f3f3f3;
+  padding:1px 15px 15px 15px;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__header-close {
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__header-close
+  .icon-close {
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
+  position: relative;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__header-close
+  .icon-close::before {
+  content: "";
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__content {
+  background-color: #fff;
+  padding: 10px;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__title,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__title {
+  background-color: #333f48;
+  opacity: 0.9;
+  padding: 8px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__title.--no-result,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__title.--no-result {
+  background-color: transparent;
+  color: #000;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__content {
+  border-bottom: 1px solid #e0e0e0;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-link,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__content
+  .faq__search-link {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  padding: 15px 0;
+  font-size: 15px;
+  font-weight: normal;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-link:hover,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__content
+  .faq__search-link:hover {
+  font-weight: bold;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__content
+  .faq__search-answer-text {
+  padding: 0 15px;
+  font-size: 14px;
+  color: #5f5f5f;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container {
+  display: flex;
+  border-radius: 0;
+  padding: 5px 10px;
+  margin: 15px 0;
+  font-size: 15px;
+  background-color: #e0e0e0;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container
+  button {
+  font-family: "inBNPFont", Helvetica, arial, sans-serif;
+  font-size: 12px;
+  padding: 0 10px;
+  border-radius: 3px;
+  background-color: #fafafa;
+  color: #5f5f5f;
+  border: 1px solid #fafafa;
+  height: auto;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container
+  button.good-response {
+  margin-left: auto;
+  margin-right: 5px;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container
+  .rating-comment {
+  width: 100%;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container
+  .rating-comment
+  .rating-comment-phrase {
+  display: block;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container
+  .rating-comment
+  .rating-comment-textarea {
+  display: block;
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container
+  .rating-comment
+  .btn-comment {
+  display: block;
+  float: right;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-answer-text
+  .rating-container
+  .rating-comment
+  .btn-comment[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-link
+  .faq__search-link-arrow,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__content
+  .faq__search-link
+  .faq__search-link-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__result__content
+  .faq__search-link
+  .faq__search-link-arrow.rotate-up,
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-engine__popin__product__content
+  .faq__search-link
+  .faq__search-link-arrow.rotate-up {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+#nextoutils_new-faq_mbbpf-popin
+  .faq__search-engine__popin
+  .faq__search-engine__popin__container
+  .faq__search-link-all-questions {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  color: #a6843a;
+}
+#nextoutils_new-faq_mbbpf-popin .faq-popin-icon-close {
+  cursor: pointer;
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+#nextoutils_new-faq_mbbpf-popin .faq-popin-icon-close:before,
+#nextoutils_new-faq_mbbpf-popin .faq-popin-icon-close:after {
+  position: absolute;
+  left: 15px;
+  content: " ";
+  height: 22px;
+  width: 2px;
+  background-color: #333;
+}
+#nextoutils_new-faq_mbbpf-popin .faq-popin-icon-close:before {
+  transform: rotate(45deg);
+}
+#nextoutils_new-faq_mbbpf-popin .faq-popin-icon-close:after {
+  transform: rotate(-45deg);
+}
+@media (min-width: 1000px) {
+  #nextoutils_new-faq_mbbpf-popin .faq__search-engine__popin {
+    position: absolute;
+    width: calc(100% - 600px);
+    max-width: 800px;
+    top:189px;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  .page-connected #nextoutils_new-faq_mbbpf-popin .faq__search-engine__popin {
+    position: fixed;
+    margin-left: 240px;
+    width: calc(100% - 675px);
+    top: 65px;
+  }
+}
+
+.faq__search-link-arrow {
+  width: 40px;
+}
+
+.faq__search-link-question{
+  flex: 1;
+}

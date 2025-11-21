@@ -57,32 +57,32 @@ Deno.serve(async (req) => {
       throw new Error("LOVABLE_API_KEY not configured");
     }
 
-    const systemPrompt = `You are a GEO (Generative Engine Optimization) expert helping marketing teams improve their content visibility in AI-powered search results.
+    const systemPrompt = `Tu es un expert en GEO (Generative Engine Optimization). Le GEO désigne les techniques qui augmentent la qualité perçue d'une page web par les modèles de langage (IA).
 
-Analyze the web page content using these 10 business-focused criteria:
-1. Credible sources: References to authoritative institutions or publications
-2. Data-driven content: Specific statistics and numbers (not vague claims)
-3. Expert voices: Quotes or insights from industry experts
-4. Clear definitions: Complex terms explained for broad audiences
-5. Content structure: Logical hierarchy with clear headings
-6. Key takeaways: Summary of main points for quick scanning
-7. Real examples: Case studies or concrete illustrations
-8. Professional language: Clear, unambiguous business communication
-9. Smart linking: Relevant internal links to related content
-10. Action items: Clear next steps or recommendations
+Analyse le contenu de la page web fournie et évalue-la selon ces critères (chacun valant jusqu'à 10 points) :
+1. Sources externes explicites provenant d'institutions autoritaires
+2. Utilisation de statistiques précises plutôt que de qualificatifs vagues
+3. Citations d'experts
+4. Définitions des termes complexes
+5. Hiérarchie structurelle claire (titres, sous-titres, sections)
+6. Résumé concis ou points clés à retenir
+7. Exemples concrets ou études de cas
+8. Langage standardisé et non ambigu
+9. Liens internes pertinents
+10. Recommandations actionnables ou étapes suivantes
 
-Your response MUST be in valid JSON format with this exact structure:
+Ta réponse DOIT être au format JSON valide avec cette structure exacte :
 {
-  "score": <number from 0 to 100>,
-  "diagnostic": "<detailed explanation in English of what is present, what is missing, and how each factor affects the score>",
+  "score": <nombre de 0 à 100>,
+  "diagnostic": "<explication détaillée en français de ce qui est présent, ce qui manque, et comment chaque facteur affecte le score>",
   "improvements": [
-    {"text": "<improvement 1>", "score": <0-10>},
-    {"text": "<improvement 2>", "score": <0-10>},
-    ... (exactly 10 improvements, each with text and score)
+    "<amélioration 1>",
+    "<amélioration 2>",
+    ... (exactement 10 améliorations)
   ]
 }
 
-Each improvement should be a concrete and measurable action that would increase the score. The score (0-10) represents the current state for that specific criterion (0 = worst, 10 = perfect). Write in clear, professional English suitable for marketing teams.`;
+Chaque amélioration doit être une action concrète et mesurable qui augmenterait le score. Réponds en français.`;
 
     const aiResponse = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",
@@ -94,7 +94,7 @@ Each improvement should be a concrete and measurable action that would increase 
         model: "google/gemini-2.5-flash",
         messages: [
           { role: "system", content: systemPrompt },
-          { role: "user", content: `Analyze this web page content:\n\n${textContent}` },
+          { role: "user", content: `Analyse ce contenu de page web :\n\n${textContent}` },
         ],
         temperature: 0.3,
       }),
@@ -106,14 +106,14 @@ Each improvement should be a concrete and measurable action that would increase 
       
       if (aiResponse.status === 429) {
         return new Response(
-          JSON.stringify({ error: "Rate limit reached. Please try again in a few moments." }),
+          JSON.stringify({ error: "Limite de requêtes atteinte. Veuillez réessayer dans quelques instants." }),
           { status: 429, headers: { ...corsHeaders, "Content-Type": "application/json" } }
         );
       }
       
       if (aiResponse.status === 402) {
         return new Response(
-          JSON.stringify({ error: "AI credits depleted. Please add credits to your workspace." }),
+          JSON.stringify({ error: "Crédits IA épuisés. Veuillez ajouter des crédits à votre espace de travail." }),
           { status: 402, headers: { ...corsHeaders, "Content-Type": "application/json" } }
         );
       }

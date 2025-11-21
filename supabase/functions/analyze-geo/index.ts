@@ -57,32 +57,32 @@ Deno.serve(async (req) => {
       throw new Error("LOVABLE_API_KEY not configured");
     }
 
-    const systemPrompt = `You are a GEO (Generative Engine Optimization) expert. GEO refers to techniques that increase the perceived quality of a web page by language models (AI).
+    const systemPrompt = `You are a GEO (Generative Engine Optimization) expert helping marketing teams improve their content visibility in AI-powered search results.
 
-Analyze the content of the provided web page and evaluate it according to these criteria (each worth up to 10 points):
-1. Explicit external sources from authoritative institutions
-2. Use of precise statistics rather than vague qualifiers
-3. Expert citations
-4. Definitions of complex terms
-5. Clear structural hierarchy (titles, subtitles, sections)
-6. Concise summary or key takeaways
-7. Concrete examples or case studies
-8. Standardized and unambiguous language
-9. Relevant internal links
-10. Actionable recommendations or next steps
+Analyze the web page content using these 10 business-focused criteria:
+1. Credible sources: References to authoritative institutions or publications
+2. Data-driven content: Specific statistics and numbers (not vague claims)
+3. Expert voices: Quotes or insights from industry experts
+4. Clear definitions: Complex terms explained for broad audiences
+5. Content structure: Logical hierarchy with clear headings
+6. Key takeaways: Summary of main points for quick scanning
+7. Real examples: Case studies or concrete illustrations
+8. Professional language: Clear, unambiguous business communication
+9. Smart linking: Relevant internal links to related content
+10. Action items: Clear next steps or recommendations
 
 Your response MUST be in valid JSON format with this exact structure:
 {
   "score": <number from 0 to 100>,
   "diagnostic": "<detailed explanation in English of what is present, what is missing, and how each factor affects the score>",
   "improvements": [
-    "<improvement 1>",
-    "<improvement 2>",
-    ... (exactly 10 improvements)
+    {"text": "<improvement 1>", "score": <0-10>},
+    {"text": "<improvement 2>", "score": <0-10>},
+    ... (exactly 10 improvements, each with text and score)
   ]
 }
 
-Each improvement should be a concrete and measurable action that would increase the score. Respond in English.`;
+Each improvement should be a concrete and measurable action that would increase the score. The score (0-10) represents the current state for that specific criterion (0 = worst, 10 = perfect). Write in clear, professional English suitable for marketing teams.`;
 
     const aiResponse = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",

@@ -57,32 +57,32 @@ Deno.serve(async (req) => {
       throw new Error("LOVABLE_API_KEY not configured");
     }
 
-    const systemPrompt = `Tu es un expert en GEO (Generative Engine Optimization). Le GEO désigne les techniques qui augmentent la qualité perçue d'une page web par les modèles de langage (IA).
+    const systemPrompt = `You are a GEO (Generative Engine Optimization) expert. GEO refers to techniques that increase the perceived quality of a web page by language models (AI).
 
-Analyse le contenu de la page web fournie et évalue-la selon ces critères (chacun valant jusqu'à 10 points) :
-1. Sources externes explicites provenant d'institutions autoritaires
-2. Utilisation de statistiques précises plutôt que de qualificatifs vagues
-3. Citations d'experts
-4. Définitions des termes complexes
-5. Hiérarchie structurelle claire (titres, sous-titres, sections)
-6. Résumé concis ou points clés à retenir
-7. Exemples concrets ou études de cas
-8. Langage standardisé et non ambigu
-9. Liens internes pertinents
-10. Recommandations actionnables ou étapes suivantes
+Analyze the content of the provided web page and evaluate it according to these criteria (each worth up to 10 points):
+1. Explicit external sources from authoritative institutions
+2. Use of precise statistics rather than vague qualifiers
+3. Expert citations
+4. Definitions of complex terms
+5. Clear structural hierarchy (titles, subtitles, sections)
+6. Concise summary or key takeaways
+7. Concrete examples or case studies
+8. Standardized and unambiguous language
+9. Relevant internal links
+10. Actionable recommendations or next steps
 
-Ta réponse DOIT être au format JSON valide avec cette structure exacte :
+Your response MUST be in valid JSON format with this exact structure:
 {
-  "score": <nombre de 0 à 100>,
-  "diagnostic": "<explication détaillée en français de ce qui est présent, ce qui manque, et comment chaque facteur affecte le score>",
+  "score": <number from 0 to 100>,
+  "diagnostic": "<detailed explanation in English of what is present, what is missing, and how each factor affects the score>",
   "improvements": [
-    "<amélioration 1>",
-    "<amélioration 2>",
-    ... (exactement 10 améliorations)
+    "<improvement 1>",
+    "<improvement 2>",
+    ... (exactly 10 improvements)
   ]
 }
 
-Chaque amélioration doit être une action concrète et mesurable qui augmenterait le score. Réponds en français.`;
+Each improvement should be a concrete and measurable action that would increase the score. Respond in English.`;
 
     const aiResponse = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",
@@ -94,7 +94,7 @@ Chaque amélioration doit être une action concrète et mesurable qui augmentera
         model: "google/gemini-2.5-flash",
         messages: [
           { role: "system", content: systemPrompt },
-          { role: "user", content: `Analyse ce contenu de page web :\n\n${textContent}` },
+          { role: "user", content: `Analyze this web page content:\n\n${textContent}` },
         ],
         temperature: 0.3,
       }),
@@ -106,14 +106,14 @@ Chaque amélioration doit être une action concrète et mesurable qui augmentera
       
       if (aiResponse.status === 429) {
         return new Response(
-          JSON.stringify({ error: "Limite de requêtes atteinte. Veuillez réessayer dans quelques instants." }),
+          JSON.stringify({ error: "Rate limit reached. Please try again in a few moments." }),
           { status: 429, headers: { ...corsHeaders, "Content-Type": "application/json" } }
         );
       }
       
       if (aiResponse.status === 402) {
         return new Response(
-          JSON.stringify({ error: "Crédits IA épuisés. Veuillez ajouter des crédits à votre espace de travail." }),
+          JSON.stringify({ error: "AI credits depleted. Please add credits to your workspace." }),
           { status: 402, headers: { ...corsHeaders, "Content-Type": "application/json" } }
         );
       }

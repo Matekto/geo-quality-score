@@ -23,7 +23,7 @@ export const UrlInputForm = ({ onSubmit, isLoading }: UrlInputFormProps) => {
       <div className="flex gap-3">
         <Input
           type="url"
-          placeholder="Entrez l'URL de votre page web (ex: https://exemple.com)"
+          placeholder="Enter your webpage URL (e.g. https://example.com)"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           disabled={isLoading}
@@ -39,10 +39,10 @@ export const UrlInputForm = ({ onSubmit, isLoading }: UrlInputFormProps) => {
           {isLoading ? (
             <>
               <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-              Analyse en cours
+              Analyzing
             </>
           ) : (
-            "Analyser"
+            "Analyze"
           )}
         </Button>
       </div>

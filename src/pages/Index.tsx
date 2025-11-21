@@ -38,14 +38,14 @@ const Index = () => {
       setAnalyzedUrl(url);
       
       toast({
-        title: "Analyse terminée",
-        description: `Score GEO : ${data.score}/100`,
+        title: "Analysis Complete",
+        description: `GEO Score: ${data.score}/100`,
       });
     } catch (error) {
       console.error("Analysis error:", error);
       toast({
-        title: "Erreur d'analyse",
-        description: error instanceof Error ? error.message : "Impossible d'analyser cette page",
+        title: "Analysis Error",
+        description: error instanceof Error ? error.message : "Unable to analyze this page",
         variant: "destructive",
       });
     } finally {
@@ -61,10 +61,10 @@ const Index = () => {
             <Search className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-5xl font-bold mb-4 text-foreground">
-            Analyseur GEO
+            GEO Analyzer
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Optimisez la visibilité de vos pages web dans les résultats générés par l'Intelligence Artificielle
+            Optimize your web pages' visibility in AI-generated results
           </p>
         </div>
 
@@ -78,7 +78,7 @@ const Index = () => {
               <div className="h-3 w-64 bg-primary/20 rounded mb-4"></div>
               <div className="h-3 w-48 bg-primary/10 rounded mx-auto"></div>
             </div>
-            <p className="text-muted-foreground mt-6">Analyse du contenu de votre page...</p>
+            <p className="text-muted-foreground mt-6">Analyzing your page content...</p>
           </div>
         )}
 
@@ -89,10 +89,10 @@ const Index = () => {
         {!analysis && !isLoading && (
           <div className="max-w-5xl mx-auto mt-16 space-y-8">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold mb-4 text-foreground">Pourquoi le GEO est essentiel pour votre marketing ?</h2>
+              <h2 className="text-3xl font-bold mb-4 text-foreground">Why GEO is Essential for Your Marketing?</h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Aujourd'hui, 40% des recherches sont effectuées via des IA comme ChatGPT, Claude ou Gemini. 
-                Le GEO garantit que votre contenu est correctement compris et recommandé par ces assistants.
+                Today, 40% of searches are performed via AIs like ChatGPT, Claude, or Gemini. 
+                GEO ensures your content is properly understood and recommended by these assistants.
               </p>
             </div>
 
@@ -101,9 +101,9 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-4">
                   <span className="text-2xl font-bold text-primary">1</span>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-foreground">Qu'est-ce que le GEO ?</h3>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">What is GEO?</h3>
                 <p className="text-muted-foreground">
-                  Le GEO (Generative Engine Optimization) optimise vos pages pour être mieux comprises et recommandées par les IA générative comme ChatGPT.
+                  GEO (Generative Engine Optimization) optimizes your pages to be better understood and recommended by generative AIs like ChatGPT.
                 </p>
               </div>
               
@@ -111,9 +111,9 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center mb-4">
                   <span className="text-2xl font-bold text-secondary">2</span>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-foreground">Comment ça marche ?</h3>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">How Does It Work?</h3>
                 <p className="text-muted-foreground">
-                  Notre outil analyse votre page selon 10 critères clés : sources fiables, statistiques précises, structure claire, et contenu actionnable.
+                  Our tool analyzes your page against 10 key criteria: reliable sources, precise statistics, clear structure, and actionable content.
                 </p>
               </div>
               
@@ -121,9 +121,9 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-4">
                   <span className="text-2xl font-bold text-accent">3</span>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-foreground">Les bénéfices</h3>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">The Benefits</h3>
                 <p className="text-muted-foreground">
-                  Augmentez votre visibilité dans les réponses IA, renforcez votre crédibilité, et obtenez des recommandations concrètes d'amélioration.
+                  Increase your visibility in AI responses, strengthen your credibility, and get concrete improvement recommendations.
                 </p>
               </div>
             </div>

@@ -57,24 +57,24 @@ Deno.serve(async (req) => {
       throw new Error("LOVABLE_API_KEY not configured");
     }
 
-    const systemPrompt = `You are a GEO (Generative Engine Optimization) scoring expert. GEO refers to techniques that increase the perceived quality of a webpage for Large Language Models.
+    const systemPrompt = `You are a GEO (Generative Engine Optimization) expert. GEO refers to techniques that increase the perceived quality of a web page by language models (AI).
 
-Analyze the provided webpage content and evaluate it based on these criteria (each worth up to 10 points):
+Analyze the content of the provided web page and evaluate it according to these criteria (each worth up to 10 points):
 1. Explicit external sources from authoritative institutions
-2. Use of precise statistics instead of vague qualifiers
-3. Expert quotations
-4. Definitions for any complex terms
+2. Use of precise statistics rather than vague qualifiers
+3. Expert citations
+4. Definitions of complex terms
 5. Clear structural hierarchy (titles, subtitles, sections)
-6. A concise summary or key takeaways
+6. Concise summary or key takeaways
 7. Concrete examples or case studies
 8. Standardized and unambiguous language
-9. Relevant internal linking
+9. Relevant internal links
 10. Actionable recommendations or next steps
 
 Your response MUST be in valid JSON format with this exact structure:
 {
-  "score": <number 0-100>,
-  "diagnostic": "<detailed explanation of what is present, what is missing, and how each factor affects the score>",
+  "score": <number from 0 to 100>,
+  "diagnostic": "<detailed explanation in English of what is present, what is missing, and how each factor affects the score>",
   "improvements": [
     "<improvement 1>",
     "<improvement 2>",
@@ -82,7 +82,7 @@ Your response MUST be in valid JSON format with this exact structure:
   ]
 }
 
-Each improvement should be a concrete, measurable action that would increase the score.`;
+Each improvement should be a concrete and measurable action that would increase the score. Respond in English.`;
 
     const aiResponse = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",
@@ -94,7 +94,7 @@ Each improvement should be a concrete, measurable action that would increase the
         model: "google/gemini-2.5-flash",
         messages: [
           { role: "system", content: systemPrompt },
-          { role: "user", content: `Analyze this webpage content:\n\n${textContent}` },
+          { role: "user", content: `Analyze this web page content:\n\n${textContent}` },
         ],
         temperature: 0.3,
       }),
@@ -106,7 +106,7 @@ Each improvement should be a concrete, measurable action that would increase the
       
       if (aiResponse.status === 429) {
         return new Response(
-          JSON.stringify({ error: "Rate limit exceeded. Please try again in a moment." }),
+          JSON.stringify({ error: "Rate limit reached. Please try again in a few moments." }),
           { status: 429, headers: { ...corsHeaders, "Content-Type": "application/json" } }
         );
       }

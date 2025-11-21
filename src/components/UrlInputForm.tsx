@@ -23,7 +23,7 @@ export const UrlInputForm = ({ onSubmit, isLoading }: UrlInputFormProps) => {
       <div className="flex gap-3">
         <Input
           type="url"
-          placeholder="Enter website URL (e.g., https://example.com)"
+          placeholder="Enter your webpage URL (e.g. https://example.com)"
           value={url}
           onChange={(e) => setUrl(e.target.value)}
           disabled={isLoading}

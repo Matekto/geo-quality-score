@@ -24,7 +24,7 @@ export const GeoResults = ({ analysis, url }: GeoResultsProps) => {
           <div className="flex-1 text-center md:text-left">
             <h2 className="text-2xl font-bold mb-2 text-foreground">GEO Score</h2>
             <p className="text-muted-foreground mb-4">
-              Analysis for: <span className="text-primary font-mono text-sm break-all">{url}</span>
+              Analysis of: <span className="text-primary font-mono text-sm break-all">{url}</span>
             </p>
             <div className="flex gap-2 justify-center md:justify-start">
               {analysis.score >= 80 && (
@@ -51,14 +51,21 @@ export const GeoResults = ({ analysis, url }: GeoResultsProps) => {
       </Card>
 
       <Card className="p-8 bg-card border-border shadow-lg">
-        <h3 className="text-xl font-bold mb-4 text-foreground">GEO Diagnostic</h3>
+        <h3 className="text-xl font-bold mb-4 text-foreground">Diagnostic</h3>
         <div className="prose prose-invert max-w-none">
-          <p className="text-muted-foreground whitespace-pre-wrap leading-relaxed">{analysis.diagnostic}</p>
+          <p className="text-muted-foreground whitespace-pre-wrap leading-relaxed">
+            {analysis.diagnostic.split(/(\*\*.*?\*\*)/).map((part, index) => {
+              if (part.startsWith('**') && part.endsWith('**')) {
+                return <strong key={index} className="font-bold text-foreground">{part.slice(2, -2)}</strong>;
+              }
+              return part;
+            })}
+          </p>
         </div>
       </Card>
 
       <Card className="p-8 bg-card border-border shadow-lg">
-        <h3 className="text-xl font-bold mb-6 text-foreground">Top 10 Prioritized Improvements</h3>
+        <h3 className="text-xl font-bold mb-6 text-foreground">10 Priority Recommendations</h3>
         <div className="space-y-3">
           {analysis.improvements.map((improvement, index) => (
             <div

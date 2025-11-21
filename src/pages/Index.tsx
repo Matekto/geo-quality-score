@@ -4,6 +4,9 @@ import { GeoResults } from "@/components/GeoResults";
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import { Search } from "lucide-react";
+import hecLogo from "@/assets/hec-logo.jpeg";
+import polytechniqueLogo from "@/assets/polytechnique-logo.jpeg";
+import bnpLogo from "@/assets/bnp-logo.png";
 
 interface GeoAnalysis {
   score: number;
@@ -55,6 +58,17 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      {/* Header with logos */}
+      <header className="border-b border-border bg-card/50 backdrop-blur-sm">
+        <div className="container mx-auto px-4 py-6">
+          <div className="flex items-center justify-center gap-8 md:gap-12 flex-wrap">
+            <img src={hecLogo} alt="HEC Paris" className="h-12 md:h-16 object-contain" />
+            <img src={polytechniqueLogo} alt="École Polytechnique" className="h-12 md:h-16 object-contain" />
+            <img src={bnpLogo} alt="BNP Paribas Banque Privée" className="h-12 md:h-16 object-contain" />
+          </div>
+        </div>
+      </header>
+
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/20 mb-4">

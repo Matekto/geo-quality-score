@@ -1,0 +1,269 @@
+Règles de l'héritage
+
+Il est recommandé d’anticiper sa transmission. Si la loi détermine les personnes qui héritent, la volonté du défunt exprimée, notamment via un testament, permet des aménagements soumis, en France, au respect des règles de la réserve héréditaire.
+
+
+En cas de succession, quelle répartition entre mes héritiers et mon conjoint ?
+L’étendue des droits du conjoint survivant dépend des héritiers avec lesquels il vient en concours à la succession et de la présence ou non d’une donation au dernier vivant.
+
+Attention :
+
+L’existence d’un testament peut aussi modifier la répartition.
+Le partenaire de PACS ou le concubin n’est pas considéré comme un conjoint pour les règles de répartition civile. Il n’hérite que si des dispositions particulières ont été prises en sa faveur (testament).
+En l’absence de testament : application des règles de répartition légales
+A défaut de testament, c’est la loi qui régit les règles de répartition.
+
+Certains héritiers ont la qualité d’« héritiers réservataires » : ce sont les enfants et, à défaut d’enfant, le conjoint survivant. Cela signifie qu’ils reçoivent automatiquement, au décès du parent ou du conjoint, une part du patrimoine du défunt.
+
+Notons que les ascendants (parents ou grands-parents du défunt), en l’absence de descendants, ne sont pas réservataires.
+
+La réserve héréditaire constitue ainsi la part du patrimoine réservée à ces héritiers réservataires. Son importance dépend de la qualité et du nombre d’héritiers réservataires dont l’existence est appréciée au moment de l’ouverture de la succession.
+
+La part successorale du conjoint et des héritiers ne prend pas en compte l’assurance-vie (sauf cas particulier de primes manifestement exagérées).
+
+Les droits du conjoint peuvent s’exercer en usufruit ou en pleine propriété. Il exerce une option au moment de la succession.
+
+Les droits du conjoint peuvent être élargis grâce à la donation au dernier vivant. Voir notre question  : Que signifie « faire une donation au dernier vivant » ou autrement dit une « donation entre époux » ?
+
+US : usufruit
+PP : pleine propriété
+
+Répartition conjoint/autres héritiers en l’absence de disposition testamentaire
+Part successorale légale du conjoint	Droits du conjoint survivant avec une donation au dernier vivant**
+Dont réserve héréditaire*
+En présence de descendants communs uniquement	100% en US
+ou
+1/4 en PP		La quotité disponible
+1 enfant : 1/2 en PP
+2 enfants : 1/3 en PP
+3 enfants ou plus : 1/4 en PP
+ou
+1/4 en PP et 3/4 en US
+ou
+100% en US
+En présence d'un ou plusieurs enfants qui ne sont pas issus des deux époux	1/4 en PP	
+En présence du père et de la mère du défunt	1/2 en PP	1/4 en PP	100% en PP
+(exception : droit de retour légal) (1)
+En présence du père ou de la mère du défunt	3/4 en PP	1/4 en PP	100% en PP
+(exception : droit de retour légal) (1)
+En l'absence de descendant et de père et mère	100% en PP
+(exception : droit de retour légal) (2)	1/4 en PP	100% en PP
+(1) ce droit est au profit des père et mère sur les biens donnés à leur enfant prédécédé sans postérité.
+(2) ce droit est au profit des frères et sœurs sur les biens de famille lorsque la succession est intégralement dévolue au conjoint survivant en l’absence de descendants et des père et mère du défunt.
+
+En présence d’un testament rédigé par le défunt
+Le testament est un écrit permettant notamment de transmettre après le décès des biens que l’on dit « légués » à un ou plusieurs bénéficiaires (appelés légataires) et de décider de leur répartition. Il peut être olographe (c’est-à-dire entièrement rédigé à la main, daté et signé de la main du testateur) ou établi devant un notaire (testament authentique).
+
+Pour faire un testament, il est nécessaire d’être majeur ou mineur de plus de 16 ans. Toutefois, un mineur entre 16 et 18 ans ne peut léguer que la moitié de ses biens sauf s’il est émancipé. Le testateur doit également posséder des capacités mentales permettant un discernement, une volonté suffisamment éclairée et avoir la capacité juridique suffisante.
+
+Les legs prévus par testament doivent respecter la réserve héréditaire (part d'héritage minimale dont on ne peut exclure certains héritiers). La part au-delà de la réserve héréditaire appelée quotité disponible, peut être librement transmise et faire varier la part de chacun : on peut gratifier par exemple plus largement son conjoint ou un des enfants.
+
+Un testament peut être modifié ou annulé jusqu’au décès.
+
+A noter : lorsque le conjoint n’est pas héritier réservataire, il est possible par testament de le priver de ses droits dans la succession.
+
+Quels droits sur le logement en cas de succession?
+
+Transmettre avant sa succession
+
+Anticiper la transmission de son patrimoine présente bien souvent un attrait tant juridique que fiscal. Il faut aussi en mesurer l’impact sur la succession future.
+
+
+Quel est l’impact d’une donation antérieure sur la succession?
+
+Pour rappel (voir la rubrique DONNER ), la donation offre la possibilité de transmettre de son vivant une partie de son patrimoine à une ou plusieurs personnes de son choix. En présence d'héritiers réservataires, la donation ne doit, cependant, pas excéder la quotité disponible, sous peine d'être réduite au moment du règlement de la succession.
+
+Une donation dite simple peut se faire sous la forme d’un don manuel (simple remise d’un objet ou d’une somme d’argent) ou d’une donation notariée.
+
+Il existe deux types de donation simple :
+
+La donation " en avancement de part successorale " au profit d’un enfant qui est une avance sur l'héritage à venir. Lors du règlement de la succession, une telle donation est rapportée et elle est déduite de la part d'actif successoral revenant à l’héritier afin de préserver l’égalité entre les enfants.
+La donation "hors part successorale" qui s’ajoute à la part réservataire de l’enfant car elle s’impute exclusivement sur la quotité disponible, c’est-à-dire la part de succession dont on peut disposer librement.
+A contrario, la donation dite donation-partage consiste non seulement à transmettre mais aussi à répartir entre ses héritiers, de son vivant, tout ou partie de ses biens.
+
+Au décès du donateur, il a pu s’écouler de nombreuses années depuis la donation. Dans l’intervalle, la valeur du bien donné a pu évoluer à la hausse comme à la baisse. La distinction entre donation simple et donation-partage est fondamentale pour l’évaluation des biens au moment de l’ouverture d’une succession :
+
+Si les biens ont fait l’objet d’une donation simple, il est tenu compte de la valeur au jour du décès du donateur. La valeur n’est donc pas figée au jour de la transmission.
+Si les biens ont été en revanche transmis dans le cadre d’une donation-partage, ils seront retenus pour leur valeur figée au jour de la donation. Par ailleurs, au décès du donateur, les biens compris dans une donation-partage ayant déjà été partagés, ne sont pas rapportés à la succession.
+A noter : une donation simple peut être transformée en donation-partage. Avec l’accord de ses enfants donataires, il est en effet possible d'incorporer une ou plusieurs donations simples, antérieurement réalisées, dans une donation-partage, quelle que soit la forme de la donation (don manuel, donation notariée). Si le bien antérieurement donné a été vendu par le donataire, le bien éventuellement acquis en remploi peut, lui aussi, être incorporé. Fiscalement, quelle que soit la valeur, au jour de la donation-partage, du bien antérieurement donné et même si, à l’occasion de cette incorporation, il est décidé un changement d’attributaire du bien donné, seul le droit de partage de 2,5 % est, en principe, dû.
+
+
+Peut-on désigner une personne pour gérer sa future succession?
+
+L’exécuteur testamentaire
+De son vivant il est possible de nommer un exécuteur testamentaire pour veiller ou procéder à l'exécution de ses volontés. Les missions de l'exécuteur testamentaire sont définies par le défunt.
+
+L'exécuteur testamentaire peut, par exemple, être par exemple chargé de veiller à la bonne exécution du testament.
+
+Il peut aussi être amené à prendre des mesures dites conservatoires (faire procéder à l'inventaire de la succession, faire vendre des meubles pour régler les dettes urgentes ou d’exécuter les dernières volontés du défunt…).
+
+La mission de l'exécuteur testamentaire prend fin au plus tard 2 ans après l'ouverture du testament. Toutefois, l'exécuteur testamentaire peut demander au juge de prolonger sa mission pour une durée maximum d'1 an.
+
+L'exécuteur testamentaire doit rendre compte de son activité aux héritiers dans les 6 mois suivant la fin de sa mission.
+
+Le mandataire à effet posthume
+Il est également envisageable, à certaines conditions, de confier à un mandataire à effet posthume la mission de gérer ses biens dans l’intérêt d’un ou plusieurs héritiers.
+
+Ce mandat doit être justifié par un intérêt sérieux et légitime au regard de la personne de l'héritier (enfant mineur ou majeur sous tutelle par exemple) et/ou du patrimoine successoral lorsque celui-ci nécessite des compétences particulières (gestion d'une entreprise, par exemple).
+
+Le mandat doit être donné par acte notarié. Sa durée est, en principe, de 2 ans mais peut, dans certaines situations, atteindre 5 ans (âge ou absence de capacité juridique des héritiers par exemple).
+
+A noter : si un exécuteur testamentaire a également été désigné, ses décisions priment sur celles du mandataire à effet posthume.
+
+La protection « associés »
+Lorsque la succession inclut une entreprise, afin d’assurer sa pérennité et assurer la stabilité de son capital, il existe aussi la possibilité de mettre en place une protection « associés » .
+
+Souscrite à titre personnel par les associés, cette assurance prévoit, en cas de décès de l’un d’eux, le versement, aux associés survivants, d’un capital-décès destiné à racheter les parts de l’associé décédé. Cette couverture permet ainsi aux héritiers d'être libérés de la préoccupation de trouver un acquéreur des parts de l'associé décédé.
+
+Succession internationale : quelle loi s’applique?
+
+Héritiers : Quelles démarches ?
+
+Lorsqu’une personne décède, ses héritiers légaux sont investis de la propriété du patrimoine du défunt et, dans ce cadre, ils doivent effectuer un certain nombre de démarches.
+
+En cas de décès, quelles sont les premières démarches?
+
+La toute première formalité qui doit être accomplie après un décès est la déclaration du décès.
+
+Cette déclaration permet aux services d’état civil du lieu du décès de dresser ce que l’on appelle un acte de décès, document nécessaire pour accomplir ensuite de nombreuses démarches.
+
+Il est établi à partir du certificat médical de décès, le décès devant être déclaré en mairie dans les 24 heures ouvrables qui suivent. Le déclarant peut être un parent, un proche, un employé des pompes funèbres ou un employé d’un établissement de soins. En plus du certificat médical de décès, le déclarant doit fournir un justificatif d’identité et bien sûr une pièce permettant d’établir l’identité du défunt.
+
+Une fois cet acte de décès établi, toute personne pourra faire une demande de copie d’acte de décès sur www.service-public.fr ou auprès de la mairie du lieu du décès ou même de celle du dernier domicile du défunt. Cette possibilité n’est pas réservée à la famille ou aux héritiers dès lors qu’en effet un tiers peut avoir à justifier du décès notamment s’il est bénéficiaire d’un contrat d’assurance vie souscrit par le défunt.
+
+Il est recommandé d’informer le plus rapidement possible les banques et les assureurs du défunt en leur transmettant une copie de cet acte de décès. Dès qu’elle a la connaissance du décès d’un client, la banque a, sauf dans certains cas, l’obligation de bloquer les comptes, de ne plus donner d’effet aux procurations (devenues automatiquement caduques du fait du décès) et d’interdire l’accès au coffre.
+
+En pratique, un notaire va le plus souvent aider les héritiers dans le règlement de la succession et le recours y sera même indispensable si le défunt avait rédigé un testament, s’il existait un contrat de mariage, si des donations antérieures avaient été effectuées ou en cas de détention d’un ou de plusieurs biens immobiliers. A la demande des héritiers, le notaire établit un acte de notoriété qui contient l’affirmation que les auteurs de la demande ont des droits successoraux à proportion de ce qui est indiqué dans l’acte.
+
+Cela ne vaut pas pour autant acceptation de la succession. L’acte de notoriété est communiqué par le notaire ou la famille aux différents organismes avec lesquels le défunt était en rapport telles que les banques et compagnies d’assurance.
+
+La banque va recenser les avoirs bancaires du défunt (tant les actifs que les passifs) et en rendre compte au notaire en charge de la succession ou aux ayants droit s'ils justifient à la banque de leur qualité héréditaire.
+
+D’autres documents vont être établis par le notaire au cours du règlement de la succession : l’attestation notariée immobilière par exemple afin de mettre l’immeuble au nom de celui qui hérite.
+
+Une déclaration de succession est obligatoire à partir de 50 000 euros pour les successions en ligne directe ou entre époux ou partenaire de PACS et doit être souscrite auprès de l’administration fiscale dans les 6 mois. Même si, en théorie, elle peut être souscrite par tout héritier, c’est en général le notaire qui la remplit pour leur compte. Elle contient tous les éléments nécessaires au calcul et au contrôle des droits de succession.
+
+Comment se calculent les droits de succession?
+
+Les droits de succession se calculent, après éventuel abattement, par application d’un barème sur la part revenant à chaque héritier en fonction de sa qualité.
+
+Certains abattements sont communs en matière de succession et de donation. Le barème applicable est, quant à lui, également commun en matière de donation et de succession (sauf les cas d’exonération du conjoint ou du partenaire de PACS applicables aux seules successions).
+
+Au moment de la liquidation de la succession, il convient donc dans un premier temps de vérifier si l’héritier a déjà entamé l’abattement auquel il peut prétendre pour calculer les droits. C’est ce qu’on appelle le rappel fiscal. Cependant, l’abattement se reconstitue avec le temps. Ce délai de reconstitution est aujourd’hui de 15 ans. Ainsi, au bout de 15 ans passés depuis une précédente donation, il est possible, à nouveau, de bénéficier à plein de l’abattement.
+
+Ce principe de progressivité s’applique aussi au barème d’imposition qui, pour certains héritiers, en fonction de leur lien de parenté, est progressif : la progressivité du barème ne se renouvelle aussi que tous les 15 ans.
+
+Abattements pour les successions et donations
+Succession	Donation
+Conjoint survivant et partenaire d’un PACS	Exonération totale de droits de succession	80 724 €
+Enfants vivants ou représentés ou ascendants	100 000 €
+Petits-enfants	-	31 865 €
+Arrière-petits-enfants	-	5 310 €
+Frères et sœurs (vivants ou représentés)	15 932 € ou exonération totale de droits de succession (1)	15 932 €
+Neveux et nièces	7 967 €	7 967 €
+Personnes handicapées (2)	159 325 €	159 325 €
+Abattement à défaut d’autre abattement	1 594 €	-
+(1) Collatéral privilégié, célibataire, veuf, divorcé ou séparé de corps, âgé de plus de 50 ans ou atteint d’une infirmité le mettant dans l’impossibilité de subvenir par son travail aux nécessités de l’existence, domicilié avec le défunt pendant les 5 ans ayant précédé le décès.
+(2) Handicapés incapables de travailler dans des conditions normales de rentabilité, en raison d’une infirmité physique ou mentale, congénitale ou acquise.
+
+A noter : Le conjoint ou partenaire de PACS est exonéré totalement de droits de succession, il reste taxé sur les droits de donation avec un abattement de 80 724 euros, renouvelable tous les 15 ans.
+
+Barème applicable en cas de succession au profit du conjoint ou partenaire de PACS : exonération
+
+Barème applicable en ligne directe pour les donations et successions en ligne directe
+Fraction de la part nette taxable (en euros)	Tarif applicable
+N'excédant pas	8 072	5%
+Comprise entre	8 072 et 12 109	10%
+12 109 et 15 932	15%
+15 932 et 552 324	20%
+552 324 et 902 838	30%
+902 838 et 1 805 677	40%
+Au-delà de	1 805 677	45%
+Barème applicable entre collatéraux et non-parents pour les donations et les successions
+Indication du degré de parenté	Tarif applicable
+Entre frères et sœurs :
+- Fraction de part nette taxable < 24 430 €
+- Fraction de part nette taxable > à 24 430 €	 
+35%
+45%
+Entre parents jusqu’au 4ème degré inclusivement	55%
+Entre parents au-delà du 4ème degré et entre personnes non parentes	60%
+
+
+Quand paie-t-on les droits de succession?
+
+En principe, la déclaration de succession doit être déposée et accompagnée du paiement des droits dans les 6 mois du décès.
+
+Un paiement fractionné, ouvert à tout héritier, peut s’échelonner d’un à trois ans ; un an étant la durée de droit. Celle de trois ans s’applique lorsque l’actif successoral est composé majoritairement de biens non liquides (tels que les biens immobiliers par exemple).
+
+Le paiement des droits peut être différé si la succession comporte, notamment, un bien transmis en nue-propriété. Le règlement est alors reporté à une échéance ultérieure (date de la réunion de l’usufruit à la nue-propriété ou cession des biens).
+
+Si le paiement différé ou fractionné est accordé par l’administration fiscale, il sera assorti du paiement d’un intérêt dont le taux, figé pendant toute la durée du crédit, s’élève à 2,3 % pour les demandes formulées en 2025.
+
+Cas particulier de la transmission d’entreprise : le paiement des droits dus sur les transmissions à titre gratuit de certaines entreprises (individuelles ou titres de sociétés non cotées) ayant une activité industrielle, commerciale, artisanale, agricole ou libérale peut être différé pendant cinq ans (versement annuel des seuls intérêts du crédit) et, à l’expiration de ce délai, être fractionné sur dix ans à raison de 1/20 ème tous les six mois assortis des intérêts semestriels. Le taux d’intérêt est réduit des 2/3 soit 0,7 %, pour les demandes formulées en 2025.
+
+Pour information : les montants investis sur les supports en unités de compte ne sont pas garantis mais sont sujets à des fluctuations à la hausse comme à la baisse dépendant en particulier de l'évolution des marchés financiers et/ou immobiliers. Les supports en unités de compte présentent donc un risque de perte en capital pouvant être partielle ou totale. L'Assureur ne s'engage par ailleurs, que sur le nombre d'unités de compte, mais pas sur leur valeur.
+
+
+Succession & produits bancaires
+
+En cas de décès d’un proche, il est recommandé d’informer le plus rapidement possible les banques et les assureurs du défunt en leur transmettant une copie de l’acte de décès.
+
+Quelles sont les conséquences du décès sur les principaux produits bancaires?
+
+Dès qu’elle a connaissance du décès d’un client, la banque bloque les comptes dont le défunt était le seul titulaire.
+Il est important de rapidement restituer les moyens de paiement du défunt, comme les chéquiers et les cartes bancaires. Les procurations cessent de produire effet et les personnes auxquelles le défunt avait donné pouvoir sur ses comptes ne peuvent plus s’en prévaloir. Le blocage des comptes jusqu’au règlement de la succession n’interdit pas à la banque d’effectuer certains règlements (frais funéraires dans la limite de 5 000 euros, droits de mutation par décès) avec l’accord de tous les héritiers ou à la demande du notaire chargé du règlement de la succession.
+
+Les comptes joints du défunt, c’est-à-dire ceux ouverts à son nom et à celui d’une autre personne (le plus souvent son conjoint ou son concubin), ne sont pas bloqués, sauf demande explicite d’un héritier ou du notaire au nom d’un ou de plusieurs héritiers. Le cotitulaire du compte peut donc continuer à les faire fonctionner, notamment en effectuant des retraits.
+Le coffre-fort comme un compte de dépôt est bloqué jusqu’au règlement de la succession. Il convient de se référer au contrat de location.
+Toutefois, il peut y avoir un « coffre joint » qui n’est pas bloqué et permet au cotitulaire survivant d’accéder seul au coffre, à condition qu’il n’y ait pas d’opposition d’un ou plusieurs héritiers (éventuellement via leur notaire) et qu’il dispose de la clé ou connaisse la combinaison du coffre.
+
+Le « coffre indivis » va être bloqué mais le cotitulaire survivant peut accéder au coffre avec l’accord, et en présence de tous les héritiers.
+
+Les comptes épargne : au décès de son titulaire, le compte d’épargne est bloqué, mais il continue de produire des intérêts jusqu’au règlement de la succession.
+Les comptes d’épargne réglementés tels que le livret A, le livret de développement durable et solidaire, le compte épargne logement (CEL) sont en revanche clôturés ; notons que pour le CEL, les capitaux et les droits à prêts et à prime qui y sont attachés sont divisibles entre les différents héritiers s’ils le souhaitent.
+
+Les plans épargne logement (PEL) ouverts depuis plus de dix ans ou de moins de dix ans échus ne peuvent être transmis et sont clôturés à la date de décès du défunt. Lorsque le PEL a moins de dix ans et qu'il n'est pas échu, les héritiers ou le notaire ont six mois après la date de décès du titulaire pour manifester l’intention de le reprendre.
+
+Les comptes à terme sont clôturés à la date du décès et les fonds sont virés sur un nouveau compte à terme ouvert au nom de la succession.
+
+Le “compte titres” est bloqué dès la connaissance du décès par la banque et, si le défunt avait donné son portefeuille en gestion sous mandat, il y est mis fin. Les titres financiers détenus sur ledit compte dépendent de la succession et les héritiers pourront, à l’unanimité :
+
+partager les titres entre eux (auquel cas chacun des héritiers recevra sa part de titres sur un compte d’instruments financiers à son nom) ;
+demander le transfert de l’ensemble des valeurs sur un compte d'instruments financiers indivis ouvert aux noms de tous les héritiers ;
+ou vendre les titres et partager le produit de la cession.
+Tout comme pour le compte de dépôt, si le compte titres ordinaire est ouvert sous forme de compte joint, il n’est pas bloqué par le décès de l’un des cotitulaires (sauf opposition de l’un ou plusieurs des héritiers).
+
+En raison de la fiscalité attachée au PEA, la banque est tenue de le clôturer à la date du décès de son titulaire. Le gain net constaté sur le plan lors de cette clôture est exonéré d'impôt sur le revenu, que le plan ait moins ou plus de cinq ans à la date du décès. Cependant, les prélèvements sociaux seront toujours dus et prélevés par la banque lors de cette clôture. Les titres financiers sont transférés sur un compte titres. Les fonds éventuellement détenus sur le “compte espèces“ du PEA du défunt sont, quant à eux, virés sur un compte de dépôt ouvert au nom du défunt. Les titres financiers comme les fonds dépendent de la succession et seront remis aux héritiers ou au notaire les représentant, après fourniture des pièces nécessaires au règlement de la succession.
+
+Comment se dénouent les contrats d’assurance-vie?
+
+Si le défunt a souscrit un ou plusieurs contrats d’’assurance-vie, le décès va permettre le versement d’un capital ou d’une rente aux bénéficiaires désignés dans le contrat.
+
+Le bénéficiaire du contrat n’a pas nécessairement de lien de parenté avec le souscripteur.
+
+L'application de la fiscalité dépend de la date de souscription du contrat, de la date de versement des primes et de l’âge de l’assuré lors du versement des primes. Attention, certains bénéficiaires tels que le conjoint ou le partenaire de Pacs sont exonérés.
+
+A noter : sous conditions, les frères et sœurs peuvent être exonérés : frère ou soeur, célibataire, veuf, divorcé ou séparé de corps, âgé de plus de 50 ans ou atteint d’une infirmité, domicilié constamment avec le défunt pendant les 5 ans précédant le décès.
+
+Voir notre rubrique Assurance-vie .
+
+La compagnie d’assurance exige un certain nombre de documents pour identifier les bénéficiaires et permettre le versement des fonds entre leurs mains.
+
+Les formalités varieront en fonction du régime applicable au contrat : en effet certains contrats d’assurance-vie échappent au paiement de droits de succession (une fiscalité propre à l’assurance vie s’applique) alors que d’autres (cas des primes versées après 70 ans par le souscripteur sur des contrats postérieurs au 20/11/1991) sont susceptibles d’être rattachés à la succession.
+
+Attention, le contrat d’assurance-vie ne doit pas être confondu avec le contrat de capitalisation. Le décès n’entraînant pas le dénouement du contrat de capitalisation, il est maintenu tout en conservant son antériorité fiscale. Le contrat est intégré à l’actif successoral pour sa valeur acquise au jour du décès. Les ayants droit peuvent ensuite choisir de maintenir ce contrat jusqu’à son terme, ou d'en demander le rachat anticipé.
+
+A quel moment les comptes seront-ils débloqués?
+
+La banque débloque les comptes du défunt pour régler les héritiers selon une procédure stricte.
+
+En présence d’un notaire, ce dernier indique par courrier à la banque ce que la banque doit verser, et à qui.
+En l’absence d’un acte de partage : la banque remet les fonds au notaire chargé du règlement de la succession, contre signature d’une lettre de décharge : c’est le notaire qui règlera ensuite les héritiers.
+En présence d’un acte de partage : la banque remet les fonds aux héritiers conformément à l’acte de partage.
+En l’absence de notaire ce sont les héritiers eux-mêmes qui donnent les instructions conjointes à la banque. Des documents tel qu’un certificat d’hérédité (nécessaire si la succession se dénoue sans notaire) seront à produire.
+S’il y a des titres dans la succession et que l'héritier détient déjà un compte d'instruments financiers, la banque procédera à un transfert de titres vers ce compte. Sinon, pour recevoir les titres, l'héritier devra au préalable ouvrir un compte d'instruments financiers.
+
+A noter : il convient de vérifier la mise à jour du prix de revient des titres reçus dans le cadre de la succession. La succession permet de revaloriser le prix et cela présente un intérêt en cas de cession ultérieure des titres.
+
+Pour information : les montants investis sur les supports en unités de compte ne sont pas garantis mais sont sujets à des fluctuations à la hausse comme à la baisse dépendant en particulier de l'évolution des marchés financiers et/ou immobiliers. Les supports en unités de compte présentent donc un risque de perte en capital pouvant être partielle ou totale. L'Assureur ne s'engage par ailleurs, que sur le nombre d'unités de compte, mais pas sur leur valeur.

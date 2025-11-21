@@ -1,0 +1,1 @@
+(function(){window.GlobalSite=window.GlobalSite||{};window.GlobalSite.isConnected=!1})();

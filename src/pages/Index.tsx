@@ -60,7 +60,7 @@ const Index = () => {
           <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/20 mb-4">
             <Search className="w-8 h-8 text-primary" />
           </div>
-          <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          <h1 className="text-5xl font-bold mb-4 text-foreground">
             GEO Scoring Engine
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

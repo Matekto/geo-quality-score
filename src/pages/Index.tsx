@@ -38,14 +38,14 @@ const Index = () => {
       setAnalyzedUrl(url);
       
       toast({
-        title: "Analysis Complete",
-        description: `GEO Score: ${data.score}/100`,
+        title: "Analyse terminée",
+        description: `Score GEO : ${data.score}/100`,
       });
     } catch (error) {
       console.error("Analysis error:", error);
       toast({
-        title: "Analysis Failed",
-        description: error instanceof Error ? error.message : "Failed to analyze the website",
+        title: "Erreur d'analyse",
+        description: error instanceof Error ? error.message : "Impossible d'analyser cette page",
         variant: "destructive",
       });
     } finally {
@@ -61,10 +61,10 @@ const Index = () => {
             <Search className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-5xl font-bold mb-4 text-foreground">
-            GEO Scoring Engine
+            Analyseur GEO
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Analyze and optimize your webpages for Large Language Models with advanced GEO techniques
+            Optimisez la visibilité de vos pages web dans les résultats générés par l'Intelligence Artificielle
           </p>
         </div>
 
@@ -78,7 +78,7 @@ const Index = () => {
               <div className="h-3 w-64 bg-primary/20 rounded mb-4"></div>
               <div className="h-3 w-48 bg-primary/10 rounded mx-auto"></div>
             </div>
-            <p className="text-muted-foreground mt-6">Analyzing webpage content...</p>
+            <p className="text-muted-foreground mt-6">Analyse du contenu de votre page...</p>
           </div>
         )}
 
@@ -87,18 +87,43 @@ const Index = () => {
         )}
 
         {!analysis && !isLoading && (
-          <div className="max-w-4xl mx-auto mt-16">
-            <div className="grid md:grid-cols-2 gap-6">
+          <div className="max-w-5xl mx-auto mt-16 space-y-8">
+            <div className="text-center mb-8">
+              <h2 className="text-3xl font-bold mb-4 text-foreground">Pourquoi le GEO est essentiel pour votre marketing ?</h2>
+              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+                Aujourd'hui, 40% des recherches sont effectuées via des IA comme ChatGPT, Claude ou Gemini. 
+                Le GEO garantit que votre contenu est correctement compris et recommandé par ces assistants.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-6">
               <div className="p-6 rounded-lg bg-card border border-border">
-                <h3 className="text-lg font-semibold mb-3 text-foreground">What is GEO?</h3>
+                <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center mb-4">
+                  <span className="text-2xl font-bold text-primary">1</span>
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Qu'est-ce que le GEO ?</h3>
                 <p className="text-muted-foreground">
-                  Generative Engine Optimization (GEO) refers to techniques that increase the perceived quality of a webpage for Large Language Models, improving visibility and accuracy in AI-generated responses.
+                  Le GEO (Generative Engine Optimization) optimise vos pages pour être mieux comprises et recommandées par les IA générative comme ChatGPT.
                 </p>
               </div>
+              
               <div className="p-6 rounded-lg bg-card border border-border">
-                <h3 className="text-lg font-semibold mb-3 text-foreground">How it works</h3>
+                <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center mb-4">
+                  <span className="text-2xl font-bold text-secondary">2</span>
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Comment ça marche ?</h3>
                 <p className="text-muted-foreground">
-                  Our engine analyzes your webpage against 10 key criteria including authoritative sources, statistics, expert quotes, clear structure, and actionable recommendations.
+                  Notre outil analyse votre page selon 10 critères clés : sources fiables, statistiques précises, structure claire, et contenu actionnable.
+                </p>
+              </div>
+              
+              <div className="p-6 rounded-lg bg-card border border-border">
+                <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-4">
+                  <span className="text-2xl font-bold text-accent">3</span>
+                </div>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Les bénéfices</h3>
+                <p className="text-muted-foreground">
+                  Augmentez votre visibilité dans les réponses IA, renforcez votre crédibilité, et obtenez des recommandations concrètes d'amélioration.
                 </p>
               </div>
             </div>

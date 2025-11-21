@@ -61,10 +61,10 @@ const Index = () => {
             <Search className="w-8 h-8 text-primary" />
           </div>
           <h1 className="text-5xl font-bold mb-4 text-foreground">
-            GEO Analyzer
+            GEO Score Analyzer
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Optimize your web pages' visibility in AI-generated results
+            Measure how well your web pages perform with AI assistants like ChatGPT
           </p>
         </div>
 
@@ -89,10 +89,10 @@ const Index = () => {
         {!analysis && !isLoading && (
           <div className="max-w-5xl mx-auto mt-16 space-y-8">
             <div className="text-center mb-8">
-              <h2 className="text-3xl font-bold mb-4 text-foreground">Why GEO is Essential for Your Marketing?</h2>
+              <h2 className="text-3xl font-bold mb-4 text-foreground">Why This Matters for Your Marketing Strategy</h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-                Today, 40% of searches are performed via AIs like ChatGPT, Claude, or Gemini. 
-                GEO ensures your content is properly understood and recommended by these assistants.
+                40% of online searches now happen through AI assistants like ChatGPT, Claude, and Gemini. 
+                Your GEO score shows how effectively your content appears in their recommendations.
               </p>
             </div>
 
@@ -103,7 +103,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-foreground">What is GEO?</h3>
                 <p className="text-muted-foreground">
-                  GEO (Generative Engine Optimization) optimizes your pages to be better understood and recommended by generative AIs like ChatGPT.
+                  Generative Engine Optimization (GEO) helps AI assistants like ChatGPT understand and recommend your content to users searching for relevant information.
                 </p>
               </div>
               
@@ -111,9 +111,9 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center mb-4">
                   <span className="text-2xl font-bold text-secondary">2</span>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-foreground">How Does It Work?</h3>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">How It Works</h3>
                 <p className="text-muted-foreground">
-                  Our tool analyzes your page against 10 key criteria: reliable sources, precise statistics, clear structure, and actionable content.
+                  We evaluate your page on 10 essential criteria including credible sources, clear data, expert quotes, and actionable insights.
                 </p>
               </div>
               
@@ -121,9 +121,9 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-4">
                   <span className="text-2xl font-bold text-accent">3</span>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-foreground">The Benefits</h3>
+                <h3 className="text-lg font-semibold mb-3 text-foreground">Your Results</h3>
                 <p className="text-muted-foreground">
-                  Increase your visibility in AI responses, strengthen your credibility, and get concrete improvement recommendations.
+                  Get a clear score, detailed analysis, and 10 prioritized recommendations to improve your content's AI visibility.
                 </p>
               </div>
             </div>

@@ -22,9 +22,9 @@ export const GeoResults = ({ analysis, url }: GeoResultsProps) => {
             <GeoScoreCircle score={analysis.score} />
           </div>
           <div className="flex-1 text-center md:text-left">
-            <h2 className="text-2xl font-bold mb-2 text-foreground">GEO Score</h2>
+            <h2 className="text-2xl font-bold mb-2 text-foreground">Your GEO Score</h2>
             <p className="text-muted-foreground mb-4">
-              Analysis of: <span className="text-primary font-mono text-sm break-all">{url}</span>
+              Page analyzed: <span className="text-primary font-mono text-sm break-all">{url}</span>
             </p>
             <div className="flex gap-2 justify-center md:justify-start">
               {analysis.score >= 80 && (
@@ -51,7 +51,7 @@ export const GeoResults = ({ analysis, url }: GeoResultsProps) => {
       </Card>
 
       <Card className="p-8 bg-card border-border shadow-lg">
-        <h3 className="text-xl font-bold mb-4 text-foreground">Diagnostic</h3>
+        <h3 className="text-xl font-bold mb-4 text-foreground">Analysis Summary</h3>
         <div className="prose prose-invert max-w-none">
           <p className="text-muted-foreground whitespace-pre-wrap leading-relaxed">
             {analysis.diagnostic.split(/(\*\*.*?\*\*)/).map((part, index) => {
@@ -65,7 +65,8 @@ export const GeoResults = ({ analysis, url }: GeoResultsProps) => {
       </Card>
 
       <Card className="p-8 bg-card border-border shadow-lg">
-        <h3 className="text-xl font-bold mb-6 text-foreground">10 Priority Recommendations</h3>
+        <h3 className="text-xl font-bold mb-6 text-foreground">Priority Actions</h3>
+        <p className="text-muted-foreground mb-6">Each recommendation shows its current score (0-10). Focus on lower scores first for maximum impact.</p>
         <div className="space-y-3">
           {analysis.improvements.map((improvement, index) => (
             <div

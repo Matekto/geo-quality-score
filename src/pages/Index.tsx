@@ -5,10 +5,15 @@ import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import { Search } from "lucide-react";
 
+interface GeoImprovement {
+  text: string;
+  score: number;
+}
+
 interface GeoAnalysis {
   score: number;
   diagnostic: string;
-  improvements: string[];
+  improvements: GeoImprovement[];
 }
 
 const Index = () => {

@@ -5,10 +5,15 @@ const corsHeaders = {
   "Access-Control-Allow-Headers": "authorization, x-client-info, apikey, content-type",
 };
 
+interface GeoImprovement {
+  text: string;
+  score: number;
+}
+
 interface GeoAnalysis {
   score: number;
   diagnostic: string;
-  improvements: string[];
+  improvements: GeoImprovement[];
 }
 
 Deno.serve(async (req) => {
@@ -76,13 +81,13 @@ Your response MUST be in valid JSON format with this exact structure:
   "score": <number from 0 to 100>,
   "diagnostic": "<detailed explanation in English of what is present, what is missing, and how each factor affects the score>",
   "improvements": [
-    "<improvement 1>",
-    "<improvement 2>",
-    ... (exactly 10 improvements)
+    {"text": "<improvement 1>", "score": <0-10>},
+    {"text": "<improvement 2>", "score": <0-10>},
+    ... (exactly 10 improvements, each with a text and score)
   ]
 }
 
-Each improvement should be a concrete and measurable action that would increase the score. Respond in English.`;
+Each improvement should be a concrete and measurable action that would increase the score. The score (0-10) represents the current state for that specific criterion (0 = worst, 10 = perfect). Respond in English.`;
 
     const aiResponse = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",
@@ -140,7 +145,18 @@ Each improvement should be a concrete and measurable action that would increase 
     }
 
     // Validate the response structure
-    if (!analysis.score || !analysis.diagnostic || !Array.isArray(analysis.improvements)) {
+    if (
+      typeof analysis.score !== 'number' ||
+      typeof analysis.diagnostic !== 'string' ||
+      !Array.isArray(analysis.improvements) ||
+      analysis.improvements.length !== 10 ||
+      !analysis.improvements.every((imp: any) => 
+        typeof imp.text === 'string' && 
+        typeof imp.score === 'number' && 
+        imp.score >= 0 && 
+        imp.score <= 10
+      )
+    ) {
       throw new Error("Invalid analysis structure from AI");
     }
 

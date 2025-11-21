@@ -53,14 +53,7 @@ export const GeoResults = ({ analysis, url }: GeoResultsProps) => {
       <Card className="p-8 bg-card border-border shadow-lg">
         <h3 className="text-xl font-bold mb-4 text-foreground">Diagnostic</h3>
         <div className="prose prose-invert max-w-none">
-          <p className="text-muted-foreground whitespace-pre-wrap leading-relaxed">
-            {analysis.diagnostic.split(/(\*\*.*?\*\*)/).map((part, index) => {
-              if (part.startsWith('**') && part.endsWith('**')) {
-                return <strong key={index} className="font-bold text-foreground">{part.slice(2, -2)}</strong>;
-              }
-              return part;
-            })}
-          </p>
+          <p className="text-muted-foreground whitespace-pre-wrap leading-relaxed">{analysis.diagnostic}</p>
         </div>
       </Card>
 

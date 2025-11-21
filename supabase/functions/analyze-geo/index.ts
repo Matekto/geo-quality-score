@@ -57,32 +57,32 @@ Deno.serve(async (req) => {
       throw new Error("LOVABLE_API_KEY not configured");
     }
 
-    const systemPrompt = `You are a GEO (Generative Engine Optimization) expert helping marketing teams improve their content visibility in AI-powered search results.
+    const systemPrompt = `You are a GEO (Generative Engine Optimization) scoring expert. GEO refers to techniques that increase the perceived quality of a webpage for Large Language Models.
 
-Analyze the web page content using these 10 business-focused criteria:
-1. Credible sources: References to authoritative institutions or publications
-2. Data-driven content: Specific statistics and numbers (not vague claims)
-3. Expert voices: Quotes or insights from industry experts
-4. Clear definitions: Complex terms explained for broad audiences
-5. Content structure: Logical hierarchy with clear headings
-6. Key takeaways: Summary of main points for quick scanning
-7. Real examples: Case studies or concrete illustrations
-8. Professional language: Clear, unambiguous business communication
-9. Smart linking: Relevant internal links to related content
-10. Action items: Clear next steps or recommendations
+Analyze the provided webpage content and evaluate it based on these criteria (each worth up to 10 points):
+1. Explicit external sources from authoritative institutions
+2. Use of precise statistics instead of vague qualifiers
+3. Expert quotations
+4. Definitions for any complex terms
+5. Clear structural hierarchy (titles, subtitles, sections)
+6. A concise summary or key takeaways
+7. Concrete examples or case studies
+8. Standardized and unambiguous language
+9. Relevant internal linking
+10. Actionable recommendations or next steps
 
 Your response MUST be in valid JSON format with this exact structure:
 {
-  "score": <number from 0 to 100>,
-  "diagnostic": "<detailed explanation in English of what is present, what is missing, and how each factor affects the score>",
+  "score": <number 0-100>,
+  "diagnostic": "<detailed explanation of what is present, what is missing, and how each factor affects the score>",
   "improvements": [
-    {"text": "<improvement 1>", "score": <0-10>},
-    {"text": "<improvement 2>", "score": <0-10>},
-    ... (exactly 10 improvements, each with text and score)
+    "<improvement 1>",
+    "<improvement 2>",
+    ... (exactly 10 improvements)
   ]
 }
 
-Each improvement should be a concrete and measurable action that would increase the score. The score (0-10) represents the current state for that specific criterion (0 = worst, 10 = perfect). Write in clear, professional English suitable for marketing teams.`;
+Each improvement should be a concrete, measurable action that would increase the score.`;
 
     const aiResponse = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",
@@ -94,7 +94,7 @@ Each improvement should be a concrete and measurable action that would increase 
         model: "google/gemini-2.5-flash",
         messages: [
           { role: "system", content: systemPrompt },
-          { role: "user", content: `Analyze this web page content:\n\n${textContent}` },
+          { role: "user", content: `Analyze this webpage content:\n\n${textContent}` },
         ],
         temperature: 0.3,
       }),
@@ -106,7 +106,7 @@ Each improvement should be a concrete and measurable action that would increase 
       
       if (aiResponse.status === 429) {
         return new Response(
-          JSON.stringify({ error: "Rate limit reached. Please try again in a few moments." }),
+          JSON.stringify({ error: "Rate limit exceeded. Please try again in a moment." }),
           { status: 429, headers: { ...corsHeaders, "Content-Type": "application/json" } }
         );
       }

@@ -1,0 +1,217 @@
+.form_search-engine {
+  display: flex;
+  position: absolute;
+  margin-top: 45px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 300;
+  height: 69px;
+  padding: 10px;
+}
+
+.faq__search-engine .join-unit input,
+.faq__search-engine .join-unit i {
+  cursor: pointer;
+  background: transparent;
+}
+
+.join-unit-autocomplete input,
+.form_search-engine .join-unit input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  padding: 6px 12px 6px;
+  font-size: 15px;
+}
+
+.join-unit-autocomplete input {
+  border-radius: 3px 0 0 3px;
+}
+
+.form_search-engine .join-unit input {
+  border-radius: 0 3px 3px 0;
+}
+
+.faq__search-engine .join-unit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 1px 2px 0 rgb(204 204 204 / 40%);
+}
+
+.faq__search-engine .join-unit.active {
+  background-color: #a6843a;
+  border-color: #a6843a;
+}
+
+.faq__search-engine .join-unit.active input {
+  color: #fff;
+}
+
+.faq__search-engine .join-unit i.search {
+  background-position: 10px 7px;
+}
+
+.faq__search-engine .join-unit.active i.search {
+  background-position: 10px -89px;
+}
+.faq__search-result-container {
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 70px;
+  background-color: #fff;
+  list-style: none;
+  padding-left: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #000;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 3px #666;
+  z-index: 300;
+  padding: 10px 15px;
+}
+
+.faq__search-result button {
+  font-size: 14px;
+  width: auto;
+  display: block;
+  padding: 10px;
+  line-height: 14px;
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+  -moz-transition: all 0.2s ease-in 0s;
+  transition: all 0.2s ease-in 0s;
+  -webkit-transition: all 0.2s ease-in 0s;
+  background: transparent;
+  text-align: left;
+  border: 0 none;
+  line-height: 30px;
+}
+.faq__search-result button .font-bold {
+  font-weight: bold;
+}
+.faq__search-result {
+  background-color: #fff;
+}
+
+.faq__search-result:hover {
+  background-color: #eee;
+}
+
+@media (min-width: 1200px) {
+  .faq__search-engine .join-unit-autocomplete {
+    width: 80%;
+  }
+
+  .faq__search-engine .join-unit {
+    width: 20%;
+  }
+
+  .faq__search-engine .join-unit i {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .faq__search-engine .join-unit-autocomplete {
+    width: calc(100% - 60px);
+  }
+
+  .faq__search-engine .join-unit {
+    width: 60px;
+    position: relative;
+  }
+
+  .faq__search-engine .join-unit input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 20px -82px;
+    background-image: url(/content/dam/mabanque/generique/sprite-header.png);
+    background-color: #a6843a;
+    color: transparent;
+    text-indent: -400px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1000px) {
+  .form_search-engine {
+    width: calc(100% - 600px);
+    max-width: 800px;
+    margin-top: 0px;
+    top: 45px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+  .form_search-engine.scrolled{
+    top: 5px;
+    position: fixed;
+  }
+
+  #nextoutils_new-faq_mbbpf-popin .faq__search-engine__popin.scrolled{
+    top: 65px;
+    position: fixed
+  }
+
+  .page-not-connected .faq__search-result-container {
+    left: 0;
+    right: 155px;
+    margin: 29px auto;
+  }
+  .faq__search-result-container {
+    margin-top: -17px;
+    width: calc(100% - 484px);
+    max-width: 625px;
+    box-shadow: none;
+    top: 75px;
+    z-index:300;
+  }
+
+  .page-connected .form_search-engine {
+    margin-left: 240px;
+    width: calc(100% - 675px);
+    top:0px;
+    position: fixed;
+    z-index:300;
+  }
+
+  .page-connected .form_search-engine.scrolled {
+    top: 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  .page-not-connected .faq__search-result-container {
+    top: 0;
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 999px) {
+  .page-not-connected .faq__search-result-container {
+    top: 0;
+    margin: 85px 10px 0;
+    padding: 0 10px;
+  }
+  .faq__search-result-container {
+    width: calc(100% - 80px);
+    margin: 128px auto 0;
+    margin-left: 12px;
+  }
+  .form_search-engine {
+    top: 55px;
+    width: 100%;
+  }
+  .page-connected .form_search-engine {
+    top: 24px;
+  }
+
+  .page-connected #nextoutils_new-faq_mbbpf-popin .faq__search-engine__popin {
+    top:135px;
+  }
+}

@@ -1,0 +1,3 @@
+#home .interior-news{padding:70px calc(100% / 14)}
+@media screen and (min-width:768px){#home .interior-news{padding:100px calc(100% / 14)}
+}

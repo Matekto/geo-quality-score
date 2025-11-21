@@ -1,0 +1,67 @@
+
+.faq__search-engine__container .faq__search-engine .faq__search-autocomplete__container{
+  position: absolute;
+  top: 75px;
+  width:100%
+}
+.faq__search-engine__container {
+  z-index: 199;
+  top: 35.5px;
+  background-color: #fff;
+}
+.faq__search-engine__container.fixed {
+  top: 0px;
+  position: fixed;
+  right: auto;
+  width: 100%;
+  z-index: 300;
+}
+
+@media only screen and (max-width: 767px) {
+  .faq__search-engine__container {
+    top: 0;
+  }
+}
+
+.faq__search-engine__container .faq__search-engine img.logo-hb {
+  height: 56px;
+}
+
+.faq__search-engine__container
+  .faq__search-engine
+  .faq__search-autocomplete__container {
+  width: 100%;
+}
+.faq__search-engine__container
+  .faq__search-engine-questions
+  .faq__search-engine-questions__content
+  .faq__search-engine-question {
+  letter-spacing: 0.2px;
+}
+
+.faq__search-engine__container
+  .faq__search-engine-questions
+  .faq__search-engine-questions__content
+  .faq__search-engine-question:hover {
+  text-decoration: underline;
+}
+
+.faq__search-engine__container
+  .faq__search-engine-questions
+  .faq__search-engine-button__container
+  .button {
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  padding: 4px 16px;
+}
+
+.faq__search-engine__container
+  .faq__search-engine-questions
+  .faq__search-engine-button__container
+  .button-ice-blue {
+  color: var(--c-text-blue-grey);
+}
+.hidden-nav2-list{
+  opacity: 0;
+  display: flex;
+}

@@ -2,10 +2,15 @@ import { Card } from "@/components/ui/card";
 import { GeoScoreCircle } from "./GeoScoreCircle";
 import { CheckCircle2, AlertCircle } from "lucide-react";
 
+interface GeoImprovement {
+  text: string;
+  score: number;
+}
+
 interface GeoAnalysis {
   score: number;
   diagnostic: string;
-  improvements: string[];
+  improvements: GeoImprovement[];
 }
 
 interface GeoResultsProps {
@@ -67,19 +72,31 @@ export const GeoResults = ({ analysis, url }: GeoResultsProps) => {
       <Card className="p-8 bg-card border-border shadow-lg">
         <h3 className="text-xl font-bold mb-6 text-foreground">10 Priority Recommendations</h3>
         <div className="space-y-3">
-          {analysis.improvements.map((improvement, index) => (
-            <div
-              key={index}
-              className="flex gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted/70 transition-colors"
-            >
-              <div className="flex-shrink-0">
-                <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/20 text-primary font-bold text-sm">
-                  {index + 1}
+          {analysis.improvements.map((improvement, index) => {
+            const scoreColor = improvement.score >= 7 ? 'text-success' : 
+                              improvement.score >= 4 ? 'text-warning' : 
+                              'text-destructive';
+            
+            return (
+              <div
+                key={index}
+                className="flex gap-4 p-4 rounded-lg bg-muted/50 hover:bg-muted/70 transition-colors"
+              >
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center w-8 h-8 rounded-full bg-primary/20 text-primary font-bold text-sm">
+                    {index + 1}
+                  </div>
+                </div>
+                <p className="text-foreground leading-relaxed flex-1">{improvement.text}</p>
+                <div className="flex-shrink-0 flex flex-col items-center gap-1">
+                  <span className={`text-2xl font-bold ${scoreColor}`}>
+                    {improvement.score}
+                  </span>
+                  <span className="text-xs text-muted-foreground">/10</span>
                 </div>
               </div>
-              <p className="text-foreground leading-relaxed flex-1">{improvement}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </Card>
     </div>

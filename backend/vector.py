@@ -28,7 +28,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 splits = text_splitter.split_documents(all_docs)
 
 # 4. Embedding et Indexation
-embeddings = MistralAIEmbeddings(model="mistral-embed", mistral_api_key="M4dPBPdGgbq19rOpbN5ODayB8MsMKJpJ")
+embeddings = MistralAIEmbeddings(model="mistral-embed", mistral_api_key="MY_API_KEY")
 vectorstore = FAISS.from_documents(splits, embeddings)
 
 # Sauvegarde de l'index pour éviter de re-payer les embeddings à chaque test
